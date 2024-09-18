@@ -1,0 +1,8 @@
+# Disallow web crawlers from accessing this website including all webpages.
+User-agent: *
+Disallow: /index.html
+Disallow: /work.html
+Disallow: /certification.html
+Disallow: /education.html
+Disallow: /project.html
+Disallow: /skills.html

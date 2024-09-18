@@ -1,13 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <header>
-
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Michelle Sun - Resume</title>
+    </head>
     <body>
-
+        <header>
+            <h1>Michelle Sun</h1>
+            <p>Resume Project</p>
+            <link rel="stylesheet" href="style.css">
+        </header>
+        <div class="flex-container">
+            <div class="nav-wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="eduction.html">Education</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="certification.html">Certification</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-wrapper">
+                <main>
+                    <div>
+                        <h2>Projects</h2>
+                        <h3>WealthSync Pro - Hackathon Project</h3>
+                        <ul>
+                            <li>Developed an npm package providing real-time cryptocurrency, foreign exchange, and stock market data using APIs</li>
+                            <li>Addressed gaps in the finance aggregation space with a user-friendly and robust solution</li>
+                            <li>Collaborated on innovation under pressure, focusing on problem-solving financial data access for users</li>
+                        </ul>
+                        <h3>The New Commonwealth Fund - Massachusetts CS Education Project</h3>
+                        <ul>
+                            <li>Led team presentations to stakeholders on the analysis of pivotal datasets concerning project objectives</li>
+                            <li>Provided essential data features and visuals to support team members in expanding project analyses 3 fold</li>
+                            <li>Fostered team collaboration to explore new analytical angles and correlations within datasets</li>
+                        </ul>
+                        <h3>Software Engineering Course - Weather Report Project</h3>
+                        <ul>
+                            <li>Managed API calls to connect 2 developers on the application's front and back end</li>
+                            <li>Established and enforced effective communication between team members</li>
+                        </ul>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div class="jscontainer">
+            <div class="btncontainer">
+                <input type="text" id="firstnum" placeholder="Enter first number">
+                <input type="text" id="secondnum" placeholder="Enter second number">
+            </div>
+            <div class="btncontainer">
+                <button onclick="addition()">+</button>
+                <button onclick="subtract()">-</button>
+                <button onclick="multiply()">*</button>
+                <button onclick="divide()">/</button>
+                <button onclick="power()">**</button>
+                <button onclick="reset()">Clear</button>
+            </div>
+            <h3 id="output"></h3>
+        </div>
     </body>
     <footer>
-        <p>&copy; 2024 Michelle Sun. All rights reserved.</p>
+        <p class="credits">&copy; 2024 Michelle Sun. All rights reserved. <a href="https://www.youtube.com/watch?v=sO4wVSA9UPs">Credit</a></p>
         <script src="script.js"></script>
     </footer>
 </html>
