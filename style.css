@@ -103,7 +103,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 3%;
-    background-image: url("/media/uggie-jiggie-copy.png");
+    background-image: url("/uggie-jiggie-copy.png");
     background-position-y: bottom;
     position: relative;
     bottom: 0;
@@ -128,5 +128,5 @@ footer {
     align-items: center;
     width: 100%;
     color: #402b0f;
-    background-image: url("/media/uggie-jiggie.png");
+    background-image: url("/uggie-jiggie.png");
 }
