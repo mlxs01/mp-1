@@ -6,3 +6,5 @@ Disallow: /certification.html
 Disallow: /education.html
 Disallow: /project.html
 Disallow: /skills.html
+Disallow: /script.js
+Disallow: /style.css
